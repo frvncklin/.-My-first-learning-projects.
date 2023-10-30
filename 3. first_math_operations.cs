@@ -1,4 +1,4 @@
-﻿// Novo projeto: Usar o método Math para verificar o maior entre dois numeros.
+// Novo projeto: Usar o método Math para verificar o maior entre dois numeros.
 
 // Inicializando estilização (rudimentar):
 
@@ -8,15 +8,17 @@ string startTab = "(::::::::::::::::::::::::::::::::::::::::::)";
 
 int firstValue = 500;
 int secondValue = 600;
-int largerValue = Math.Max(firstValue, secondValue);
-int lesserValue = Math.Min(firstValue, secondValue);
-var multiValue = Math.Pow(firstValue, secondValue);
-var logFirstValue = Math.Log(firstValue);
+
+// Executando as operações com a classe Math.
+int largerValue = Math.Max(firstValue, secondValue);    // Método Max permite detectar o maior dos dois.
+int lesserValue = Math.Min(firstValue, secondValue);   // Método Min permkite detectar o menor dos dois.
+var multiValue = Math.Pow(firstValue, secondValue);   // Método Pow faz uma exponenciação dos dois valores.
+var logFirstValue = Math.Log(firstValue);            // Método Log faz um logarítimo natural para o valor.
 var logSecondValue = Math.Log(secondValue);
 
 // Supormos um número decimal:
 double numero = 5.09192739;
-var numeroInteiro = Math.Round(numero, 0);
+var numeroInteiro = Math.Round(numero, 0);      // Método Round mostra apenas uma quantidade especificada de casas decimais.
 
 // Output do programa:
 
